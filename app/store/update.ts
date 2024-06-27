@@ -106,7 +106,7 @@ export const useUpdateStore = createPersistStore(
                       if (version === remoteId) {
                         // Show a notification using Tauri
                         window.__TAURI__?.notification.sendNotification({
-                          title: "NextChat",
+                          title: "TokenTalk Chat",
                           body: `${Locale.Settings.Update.IsLatest}`,
                           icon: `${ChatGptIcon.src}`,
                           sound: "Default",
