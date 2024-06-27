@@ -177,7 +177,10 @@ export function SideBar(props: { className?: string }) {
           TokenTalk Chat
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          购买API请到<a href={"https://openai.eastduan.xyz"}>TokenTalk</a>
+          购买API请到
+          <a href={"https://openai.eastduan.xyz"} target="_blank">
+            TokenTalk
+          </a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
