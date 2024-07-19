@@ -7,7 +7,7 @@
 
 [![Web][Web-image]][web-url]
 
-[网页版](https://n3xt.chat) / [反馈](https://github.com/Hk-Gosuto/ChatGPT-Next-Web-LangChain/issues) / [Discord](https://discord.gg/2Dvtf7Pq) / QQ群: `763467624`
+[网页版](https://n3xt.chat) / [反馈](https://github.com/Hk-Gosuto/ChatGPT-Next-Web-LangChain/issues) / [Discord](https://discord.gg/QPrKZFwWn8) / QQ群: `763467624`
 
 [web-url]: https://n3xt.chat/
 [download-url]: https://github.com/Hk-Gosuto/ChatGPT-Next-Web-LangChain/releases
@@ -238,7 +238,7 @@ OpenAI 接口代理 URL，如果你手动配置了 openai 接口代理，请填�
 
 Google Gemini Pro Api Key.
 
-### ~~ `GOOGLE_BASE_URL` （可选）~~  `GEMINI_BASE_URL` （可选）
+### `GEMINI_BASE_URL` （可选）
 
 Google Gemini Pro Api Url.
 
