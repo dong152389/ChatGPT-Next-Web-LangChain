@@ -174,10 +174,13 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          NextChat
+          TokenTalk Chat
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          购买API请到
+          <a href={"https://openai.eastduan.xyz"} target="_blank">
+            TokenTalk
+          </a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
