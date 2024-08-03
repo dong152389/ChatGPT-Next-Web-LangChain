@@ -63,7 +63,7 @@ export const DEFAULT_CONFIG = {
   modelConfig: {
     model: "gpt-3.5-turbo" as ModelType,
     providerName: "OpenAI" as ServiceProvider,
-    temperature: 0.5,
+    temperature: 2,
     top_p: 1,
     max_tokens: 4000,
     presence_penalty: 0,
@@ -227,7 +227,7 @@ export const useAppConfig = createPersistStore(
         state.modelConfig.template =
           state.modelConfig.template !== DEFAULT_INPUT_TEMPLATE
             ? state.modelConfig.template
-            : (config?.template ?? DEFAULT_INPUT_TEMPLATE);
+            : config?.template ?? DEFAULT_INPUT_TEMPLATE;
       }
 
       return state as any;
