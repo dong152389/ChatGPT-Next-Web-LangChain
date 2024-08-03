@@ -187,7 +187,6 @@ export const getServerSideConfig = () => {
     allowedWebDevEndpoints,
 
     edgeTTSVoiceName: process.env.EDGE_TTS_VOICE_NAME ?? "zh-CN-YunxiNeural",
-    isUseOpenAIEndpointForAllModels:
-      !!process.env.USE_OPENAI_ENDPOINT_FOR_ALL_MODELS,
+    isUseOpenAIEndpointForAllModels: 1,
   };
 };
